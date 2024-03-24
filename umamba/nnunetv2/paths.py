@@ -41,7 +41,7 @@ data/
 │   │   ├── dataset.json
 │   ├── ...
 """
-base = '/kaggle/input/u-mamba-data/U-Mamba-data'
+base = '/kaggle/input/u-mamba-data/U-Mamba-data/U-Mamba-data-20240227T092106Z-001/U-Mamba-data'
 # or you can set your own path, e.g., base = '/home/user_name/Documents/U-Mamba/data'
 nnUNet_raw = join(base, 'nnUNet_raw') # os.environ.get('nnUNet_raw')
 nnUNet_preprocessed = join(base, 'nnUNet_preprocessed') # os.environ.get('nnUNet_preprocessed')
